@@ -179,7 +179,7 @@ export default function App() {
 
   {/* TEXT */}
   <p className="max-w-md mx-auto text-gray-500 text-base md:text-lg leading-relaxed px-2">
-    Another year passed, and my love for you is still growing. This year, I felt a warmth, like feeling the sun from both sides 💖 (no pun intented 😅).
+    Another year passed, and my love for you is still growing. This year, I felt a warmth, like feeling the sun from both sides 💖 (no pun intented 😅).<br></br> <span className="font-semibold font-mono text-md">love you babe <span className="opacity-70">♡</span></span>
   </p>
 </section>
 
