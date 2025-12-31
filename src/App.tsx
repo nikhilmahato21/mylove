@@ -179,17 +179,26 @@ export default function App() {
 
   {/* TEXT */}
   <p className="max-w-md mx-auto text-gray-500 text-base md:text-lg leading-relaxed px-2">
-    Every picture holds a memory, every moment holds a feeling.
-    This year was lighter, warmer, and more beautiful — because of you.
+    Another year passed, and my love for you is still growing. This year, I felt a warmth, like feeling the sun from both sides 💖 (no pun intented 😅).
   </p>
 </section>
 
     <LoveStore/>
 
       {/* FOOTER */}
-      <footer className="py-10 text-center text-gray-600 text-sm">
-        Made with 💖 just for you
-      </footer>
+     <footer className="relative py-16 text-center text-gray-500 text-xs overflow-hidden">
+
+  {/* Soft ambient glow */}
+  <div className="absolute inset-0 pointer-events-none">
+    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-75 h-75 rounded-full bg-rose-200/20 blur-[120px]" />
+  </div>
+
+  {/* Text */}
+  <p className="relative tracking-wide">
+    made with <span className="opacity-70">♡</span> just for you
+  </p>
+
+</footer>
 
     </div>
   );
